@@ -43,17 +43,19 @@ From user-friendly interfaces to advanced subscription management, Novel Engine 
 
 # Instructions
 
-Front-end Demo
+## Front-end Demo
 
-Home Page : https://demo-1.taskarnovels.com.ng/
-Login Link : https://demo-1.taskarnovels.com.ng/login
-Email : user@mail.com
-Password : 1234
-Admin Demo
+- Home Page : https://demo-1.taskarnovels.com.ng/
+- Login Link : https://demo-1.taskarnovels.com.ng/login
+- Email : user@mail.com
+- Password : 1234
 
-Admin Login Link : https://demo-1.taskarnovels.com.ng/SHU-Admin/
-Username : admin
-Password : 1234
+## Admin Demo
+
+- Admin Login Link : https://demo-1.taskarnovels.com.ng/SHU-Admin/
+- Username : admin
+- Password : 1234
+
+
 Detailed Documentation available under the package.
-Video Documentation 
-https://www.youtube.com/watch?v=6Btp5l638ug&t=6s
+- Video Documentation : https://www.youtube.com/watch?v=6Btp5l638ug&t=6s
