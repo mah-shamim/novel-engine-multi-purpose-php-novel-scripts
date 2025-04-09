@@ -1,0 +1,27 @@
+{
+    "name": "shuraih/book",
+    "description": "Book website created by Shuraihu Usman",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Admin\\": "Public/admin/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Shuraih Usman"
+        }
+    ],
+    "minimum-stability": "stable",
+        "require": {
+        "ausi/slug-generator": "^1.1",
+        "phpoffice/phpword": "^1.2",
+        "qaamgo/onlineconvert-api-sdk": "^3.1",
+        "google/apiclient": "^2.17",
+        "guzzlehttp/guzzle": "^7.8",
+        "phpmailer/phpmailer": "^6.9",
+        "smalot/pdfparser": "^2.10"
+    }
+}

@@ -1,0 +1,9 @@
+vendor
+build
+downloads/*
+!downloads/.gitkeep
+bin/*
+test.php
+tests/Functional/downloads/*
+!tests/Functional/downloads/.gitkeep
+composer.lock

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ckeditor5": "^42.0.2"
+  }
+}

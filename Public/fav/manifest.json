@@ -1,0 +1,27 @@
+{
+    "name": "NovelEngine",
+    "short_name": "NovelEngine",
+    "description": "Read, subscribe, and download novels.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#c416bb",
+
+    "icons": 
+    [
+        {
+            "src":"/Public/fav/android-chrome-192x192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        },
+
+        {
+            "src":"/Public/fav/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+            
+    ]
+
+
+}

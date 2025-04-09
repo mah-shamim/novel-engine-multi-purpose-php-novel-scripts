@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovelEngine PHP Script - Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        header {
+            background-color: #c416bb;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin: 1em 0;
+        }
+        .border-top {
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .info p {
+            margin: 10px 0;
+        }
+        .table-of-contents {
+            margin: 20px 0;
+        }
+        ol.alpha {
+            list-style: lower-alpha;
+        }
+        .step img {
+            width: 100%;
+            display: block;
+            margin: 10px 0;
+            max-width: 800px;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #ccc;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .info div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NovelEngine PHP script Documentation</h1>
+			<p>NovelEngine The ultimate PHP script for sharing, subscribing, and reading novels.</p>
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="center alt">NovelEngine Documentation by Shuraihu Usman</h2>
+        <hr>
+        <div class="border-top">
+            <div class="info">
+                <div>
+                    <p><strong>Created: 01/08/2024<br>Last Updated: 01/08/2024<br>By: Shuraihu Usman<br>Email: <a href="mailto:shuraihusman@gmail.com">shuraihusman@gmail.com</a></strong></p>
+                </div>
+                <div>
+                    <p>Thank you for purchasing  NovelEngine php script. If you have any questions that are beyond the scope of this help file, please feel free to email via our support email. Thanks so much!</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha table-of-contents">
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#database">Database Creation</a></li>
+            <li><a href="#finalinstall">Final Installation</a></li>
+            <li><a href="#cronjob">Set Cron Job</a></li>
+            <li><a href="#googlesignin">Instant Indexing Setting</a></li>
+            <li><a href="#facebooksignin">Paystack Payment Setting</a></li>
+            <li><a href="#youtube">Youtube Video Tutorial</a></li>
+            <li><a href="#credits">Credits</a></li>
+        </ol>
+        <hr>
+        <h3 id="installation"><strong>A) Uploading Source Code:</strong> - <a href="#toc">top</a></h3>
+        <p>cPanel Tutorial</p>
+        <ol>
+            <li>Login cPanel</li>
+            <li>Go File Manager</li>
+            <li>Open public_html folder and click upload button</li>
+            <li>Select SourceCode.zip and Upload it.</li>
+            <li>Select SourceCode File And Extract it</li>
+        </ol>
+        <div class="step">
+            <h3>Step 1:</h3>
+            <img src="images/img1.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 2:</h3>
+            <img src="images/img2.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 3:</h3>
+            <img src="images/img3.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 4:</h3>
+            <img src="images/img5.png" alt="">
+        </div>
+
+        <div class="step">
+            <h3>Step 5:</h3>
+            <img src="images/img6.png" alt="">
+        </div>
+
+  
+
+        <hr>
+        <h3 id="database"><strong>B) Database Creation</strong> - <a href="#toc">top</a></h3>
+        <p>I've included three psds with this theme:</p>
+        <ol>
+            <li>Login cPanel</li>
+            <li>Go MYSQL Database Wizard</li>
+            <li>Remember Database Name, Username , Password</li>
+        </ol>
+        <div class="step">
+            <h3>Step 1:</h3>
+            <img src="images/img7.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 2:</h3>
+            <img src="images/img8.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 3:</h3>
+            <img src="images/img9.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 4:</h3>
+            <img src="images/img10.png" alt="">
+        </div>
+        <div class="step">
+            <h3>Step 5:</h3>
+            <img src="images/img11.png" alt="">
+        </div>
+        <hr>
+        <h3 id="finalinstall"><strong>C) Final Installation</strong> - <a href="#toc">top</a></h3>
+        <ol>
+            <li>Open Browser</li>
+            <li>Enter Your Website URL Address Bar </li>
+        </ol>
+        <div class="step">
+            <h3>Step 1:</h3>
+            <img src="images/img12.png" alt="">
+        </div>
+
+        <div class="step">
+            <h3>Step 2:</h3>
+            <img src="images/img13.png" alt="">
+        </div>
+        <hr>
+        <h3 id="cronjob"><strong>D) Setting Cron Job</strong> - <a href="#toc">top</a></h3>
+        <ol>
+            <li>Go to Your CPANEL look for Cron Job Option</li>
+            <li>And set all the setting as it is in the image below. </li>
+        </ol>
+        <img src="images/cron1.png" alt="">
+        <img src="images/cron2.png" alt="">
+        <hr>
+        <h3 id="googlesignin"><strong>E) How Get Google Key for Instant Indexing</strong> - <a href="#toc">top</a></h3>
+        <ol>
+            <li>Login to <a target="_blank" href="https://console.developers.google.com/">Google Developer Console
+            </a>using your Google account credentials.</li>
+            <li>If you are not registered on Google developer account, then you need to accept agreement. </li>
+        </ol>
+        <div class="step">
+            <img src="assets/images/accept-google-developer-agreement.png" alt="">
+        </div>
+        <ul>
+            <li>After accepting agreement or if you are already registered on Google developer account, you will see a screen as shown below. Click on “Select a project” on top header bar. </li>
+        </ul>
+        <div class="step">
+            <img src="assets/images/select-a-project-from-header.png" alt="">
+        </div>
+        <ul>
+            <li>From the project selection popup click on the "NEW PROJECT" button to add a new project. </li>
+        </ul>
+        <div class="step">
+            <img src="assets/images/click-on-new-project.png" alt="">
+        </div>
+        <ul>
+            <li>Enter your “Project name” and click on the “Create” button. </li>
+        </ul>
+        <div class="step">
+            <img src="images/img14.png" alt="">
+        </div>
+        <ul>
+            <li>Navigate to APIs & Service section and click for Library. </li>
+        </ul>
+        <div class="step">
+            <img src="images/img15.png" alt="">
+        </div>
+        <ul>
+            <li>Search for <b>Indexing</b> in Search form, and select  <b>Web Search Indexing API</b>.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img16.png" alt="">
+        </div>
+        <ul>
+            <li>Enable it.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img17.png" alt="">
+        </div>
+
+        <ul>
+            <li>Move to dashboard, under APIs & Services.</li>
+            <li>Click Credentials in menu bar, and click the <b>CREAT CREDENTIALS </b> button.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img19.png" alt="">
+        </div>
+
+        <ul>
+            <li>Click Service Account .</li>
+        </ul>
+        <div class="step">
+            <img src="images/img20.png" alt="">
+        </div>
+
+        <ul>
+            <li>Enter service name .</li>
+            <li>Service description (optional).</li>
+            <li>Press Create and continue button</li>
+        </ul>
+        <div class="step">
+            <img src="images/img21.png" alt="">
+        </div>
+
+
+        <ul>
+            <li>Select the role as owner.</li>
+            <li>click continue and done.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img22.png" alt="">
+        </div>
+
+
+        <ul>
+            <li>Now You successfully create you service account, you would see your service Email, copy it and save it some where you would need it later .</li>
+            <li>Click the Email link .</li>
+        </ul>
+        <div class="step">
+            <img src="images/img24.png" alt="">
+        </div>
+
+        <ul>
+            <li>Navigate to KEY section.</li>
+            <li>Click Add key, and choose Create new Key .</li>
+        </ul>
+        <div class="step">
+            <img src="images/img25.png" alt="">
+        </div>
+
+        <ul>
+            <li>Choose JSON, and click Create.</li>
+            <li>it would download it in your device.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img26.png" alt="">
+        </div>
+
+        <ul>
+            <li>It would something like this.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img27.png" alt="">
+        </div>
+
+        <ul>
+            <li>now go to your Google Search Console.</li>
+            <li>navigate to your current site / project.</li>
+            <li>Go to Settings .</li>
+        </ul>
+        <div class="step">
+            <img src="images/img28.png" alt="">
+        </div>
+
+        <ul>
+            <li>Click on Users and permission.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img29.png" alt="">
+        </div>
+
+        <ul>
+            <li>Click on Add user button.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img30.png" alt="">
+        </div>
+
+
+        <ul>
+            <li>Paste that your Google Service Email Address you copy</li>
+            <li>and set the permission as OWNER</li>
+        </ul>
+        <div class="step">
+            <img src="images/img31.png" alt="">
+        </div>
+
+
+        <ul>
+            <li>Go to your Site admin panel in setting and activate the Instant Indexing plugin.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img32.png" alt="">
+        </div>
+
+
+        <ul>
+            <li>Go to Instant Indexing Page from Menu.</li>
+            <li>Upload the Google Service Key .json file to the Setting session.</li>
+        </ul>
+        <div class="step">
+            <img src="images/img33.png" alt="">
+        </div>
+
+
+        <hr>
+        <h3 id="facebooksignin"><strong>F) How Get PAYSTACK API Public and Secret KEY </strong> - <a href="#toc">top</a></h3>
+        <h4>Follow the below steps to get Paystack API Keys:</h4>
+        <ol>
+            <li>Login to your Paystack account and navigate to <a href="https://dashboard.paystack.com/" target="_blank"> Dasboard</a></li>
+            <li> If you did not have account you have to create it here <a href="https://dashboard.paystack.com/#/signup" target="_blank">Register</a> </li>
+            <li> Set your account details andd all the requirements .</li>
+            <li>Create / Add new Business and submit for paystack verification, if your are verified then proceed</li>
+            <li> At the top from right Toogle your account as live, under your project.</li>
+            <li> Mavigate to Setting from menu.</li>
+            <li> Mavigate to API Keys & Webhooks.</li>
+            <li> Copy your live Public Key .</li>
+            <li> Generate New live Secret Key, and copy.</li>
+        </ol>
+        <div class="step">
+            <img src="images/img34.png" alt="">
+        </div>
+
+        <hr>
+        <h3 id="youtube"><strong>G) Tutorial on how to use</strong> - <a href="#toc">top</a></h3>
+
+
+        <ul>
+            <li>Video Tutorial in youtube <a href="https://uiparadox.co.uk/" title="UI PARADOX">video link</a></li>
+
+            <iframe width="1250" height="703" src="https://www.youtube.com/embed/6Btp5l638ug" title="NOVEL ENGINES - PHP Script for sharing, reading, downloading and subscribing novels" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </ul>
+
+
+        <hr>
+        <h3 id="credits"><strong>G) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+        <ul>
+            <li>FrontEnd CSS / HTML by  <a href="https://uiparadox.co.uk/" title="UI PARADOX">UI PARADOX</a></li>
+        </ul>
+        <p>Once again, thank you so much for using NovelEngine. As I said at the beginning, I'd be glad to help you if you have any questions relating to this project. No guarantees, but I'll do my best to assist.</p>
+        <p class="append-bottom alt large"><strong>NovelEngine Team</strong></p>
+        <p><a href="#toc">Go To Table of Contents</a></p>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 NovelEngine. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

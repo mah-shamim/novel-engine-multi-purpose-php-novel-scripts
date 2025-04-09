@@ -1,0 +1,32 @@
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+matrix:
+  include:
+    - php: 7.1
+    - php: 7.2
+    - php: 7.3
+    - php: 7.4
+
+before_install:
+  - composer selfupdate
+
+install:
+  - composer install
+
+script:
+  - if [[ "$TRAVIS_BRANCH" == "master" && $TRAVIS_PULL_REQUEST == false ]];
+    then
+      echo "All tests running";
+      bin/phpunit -c phpunit.xml;
+    else
+      echo "Only unit tests running";
+      bin/phpunit -c phpunit.xml --testsuite unit;
+    fi
+
+env:
+  global:
+    - XDEBUG_MODE=coverage

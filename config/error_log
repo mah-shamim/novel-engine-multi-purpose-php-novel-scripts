@@ -1,0 +1,3 @@
+[07-Aug-2024 00:29:53 Africa/Lagos] PHP Warning:  Undefined array key 0 in /home/barobaro/demo-1.taskarnovels.com.ng/config/cron.php on line 34
+[07-Aug-2024 22:00:11 Africa/Lagos] PHP Warning:  Undefined array key "HTTP_HOST" in /home/barobaro/demo-1.taskarnovels.com.ng/config/init.php on line 30
+[07-Aug-2024 22:00:11 Africa/Lagos] PHP Warning:  Undefined array key "REQUEST_URI" in /home/barobaro/demo-1.taskarnovels.com.ng/config/init.php on line 31
